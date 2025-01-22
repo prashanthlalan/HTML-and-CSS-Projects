@@ -1,2 +1,2 @@
 # HTML-and-CSS-Projects
-This contains all the folders and submitted HTML and CSS Assignments.
+This contains all the folders and files submitted HTML and CSS Assignments.
