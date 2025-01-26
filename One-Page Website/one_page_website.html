@@ -1,6 +1,159 @@
 <!DOCTYPE html>
-<html>
-<title>One Page Website</title>
-<body>
+<html lang="en">
+	<head>
+		<title>Dummy Car Detailing - One Page Website</title>
+		<meta charset="utf-8">
+		<style>
+			body {
+				background-color: #e6ecff;
+			}
+			h1 {
+				text-align:center;
+			}
+			h3 {
+				text-align:center;
+			}
+			p {
+				text-align:center;
+			}
+			ul.center {
+				list-style-type: none;
+				text-align: center;
+			}
+			li {
+				display: inline-block;
+				margin: 0 10px;
+			}
+			.SRVCI {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 75%;
+			}
+			.submit_button {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 20%;
+				padding: 20px;
+			}
+			.contact_form {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				padding: 15px;
+				width:75%;
+			}
+		</style>
+	</head>
+	<body>
+	
+	<!-- A <nav> element that utilizes HTML bookmarks to allow the user to jump to various sections on the page. -->
+		<div>
+			<div id="navigation">
+				<ul class="center">
+					<a href="#home"><li>HOME</li></a>
+					<a href="#about_us"><li>ABOUT US</li></a>
+					<a href="#services"><li>OUR SERVICES</li></a>
+					<a href="#video"><li>OUR CLEANING PROCESS</li></a>
+					<a href="#contact"><li>CONTACT US</li></a>
+				</ul>
+			</div>
+		</div>
+	<!-- End of a <nav> element that utilizes HTML bookmarks to allow the user to jump to various sections on the page. -->
+
+	<!-- Home page section (heading tag, <p> tag, etc.).  -->
+		<section>
+			<div id="home">
+				<h1>Welcome to Dummy Car Detailing</h1>
+				<p>We are a full-service auto detailing salon serving Mississauga.
+				<br>Our detailing packages include full interior and exterior cleaning, waxing, polishing, clay 
+				<br>bar, interior shampooing & steaming, and more.</p>
+			</div>
+		</section>
+	<!-- End of Home page section (heading tag, <p> tag, etc.).  -->
+	
+	<!-- About Us section (heading tag, <p> tag, etc.).  -->
+		<section>
+			<div id="about_us">
+				<h1>About Us</h1>
+				<p>My Dummy Car Detailing facilities have put the customer in the front seat in 
+				<br>providing the maximum level of quality, convenience, comfort, <br>
+				and affordability possible.</p>
+			</div>
+		</section>
+	<!-- End of About Us section (heading tag, <p> tag, etc.).  -->
+	
+	<!-- A Our Services section with pictures (<img> tags, etc.).  -->
+	
+	<!-- Services 1 -->
+		<section>
+			<div id="services">
+				<h1>Our Services</h1>
+				<img class="SRVCI" src="./images/2.jpg" alt="Rustproofing" height="400">
+				<h3>Rustproofing</h3>
+				<p>Complete rustproofing to protect your car from the effects 
+				<br>of rust & corrosion caused by salt, debris, and exposure to the elements.</p>
+			</div>
+		</section>
+	<!-- End Services 1 -->
+	
+	<!-- Services 2 -->
+		<section>
+			<div id="services">
+				<img class="SRVCI" src="./images/3.jpg" alt="Interior Cleaning" height="400">
+				<h3>Interior Cleaning</h3>
+				<p>We meticulously clean every curve and crevice of every car we work on. <br>
+				Interior services include full carpet, floor, and seat shampooing & steaming.</p>
+			</div>
+		</section>
+	<!-- End Services 2 -->
+	
+	<!-- Services 3 -->
+		<section>
+			<div id="services">
+				<img class="SRVCI" src="./images/1.jpg" alt="Ceramic Coating" height="400">
+				<h3>Ceramic Coating</h3>
+				<p>Get the highest level of protection for your car with <br>
+				professional ceramic coating using the leading Ceramic Pro coating treatment.</p>
+			</div>
+		</section>
+	<!-- End Services 3 -->
+	
+	<!-- A section with a video(s) (<iframe> tag, src attribute, etc.). -->
+		<section>
+			<div id="video">
+				<h1>The Art of Car Cleaning</h1>
+					<div>
+						<iframe class="SRVCI" width="560" height="315" src="https://www.youtube.com/embed/gNFvYLam3X4?si=jUB8deWEcPaK_C8q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					</div>
+			</div>
+		</section>
+		
+	<!-- Contact form (<form> tag, <input> tag, etc.). -->
+		<section>
+			<div id="contact">
+				<h1>Contact Us</h1>
+					<div>
+						<form action="" method="post">
+						<input class="contact_form" type="text" value="First Name"><br>
+						<input class="contact_form" type="text" value="Last Name"><br>
+						<input class="contact_form" type="text" value="Email Address"><br>
+						<input class="contact_form" type="text" value="Phone Number"><br>
+						<br>
+						<div>
+							<input class="submit_button" type="submit" value="Submit">
+						</div>
+					</form>
+					</div>
+			</div>
+		</section>
+	
+	<!-- Footer (<footer> tag, etc.). -->
+		<section>
+			<div>
+				<p>&copy 2025 Dummy Car Detailing - One Page Website
+			</div>
+		</section>
 </body>
 </html>
