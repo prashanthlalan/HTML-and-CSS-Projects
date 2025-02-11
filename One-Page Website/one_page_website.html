@@ -3,48 +3,7 @@
 	<head>
 		<title>Dummy Car Detailing - One Page Website</title>
 		<meta charset="utf-8">
-		<style>
-			body {
-				background-color: #e6ecff;
-			}
-			h1 {
-				text-align:center;
-			}
-			h3 {
-				text-align:center;
-			}
-			p {
-				text-align:center;
-			}
-			ul.center {
-				list-style-type: none;
-				text-align: center;
-			}
-			li {
-				display: inline-block;
-				margin: 0 10px;
-			}
-			.SRVCI {
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-				width: 75%;
-			}
-			.submit_button {
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-				width: 20%;
-				padding: 20px;
-			}
-			.contact_form {
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-				padding: 15px;
-				width:75%;
-			}
-		</style>
+		<link rel="stylesheet" href="./CSS/one_page_website.css">
 	</head>
 	<body>
 	
@@ -77,9 +36,8 @@
 		<section>
 			<div id="about_us">
 				<h1>About Us</h1>
-				<p>My Dummy Car Detailing facilities have put the customer in the front seat in 
-				<br>providing the maximum level of quality, convenience, comfort, <br>
-				and affordability possible.</p>
+				<p>My Dummy Car Detailing facilities have put the customer in the front seat in providing 
+				<br>the maximum level of quality, convenience, comfort, and affordability possible.</p>
 			</div>
 		</section>
 	<!-- End of About Us section (heading tag, <p> tag, etc.).  -->
@@ -89,11 +47,13 @@
 	<!-- Services 1 -->
 		<section>
 			<div id="services">
-				<h1>Our Services</h1>
-				<img class="SRVCI" src="./images/2.jpg" alt="Rustproofing" height="400">
-				<h3>Rustproofing</h3>
-				<p>Complete rustproofing to protect your car from the effects 
-				<br>of rust & corrosion caused by salt, debris, and exposure to the elements.</p>
+					<h1>Our Services</h1>
+				<div class="box">
+					<img class="SRVCI" src="./images/2.jpg" alt="Rustproofing" height="400">
+					<h3>Rustproofing</h3>
+					<p>Complete rustproofing to protect your car from the effects 
+					<br>of rust & corrosion caused by salt, debris, and exposure to the elements.</p>
+				</div>
 			</div>
 		</section>
 	<!-- End Services 1 -->
@@ -101,10 +61,11 @@
 	<!-- Services 2 -->
 		<section>
 			<div id="services">
-				<img class="SRVCI" src="./images/3.jpg" alt="Interior Cleaning" height="400">
-				<h3>Interior Cleaning</h3>
-				<p>We meticulously clean every curve and crevice of every car we work on. <br>
-				Interior services include full carpet, floor, and seat shampooing & steaming.</p>
+				<div class="box">
+					<img class="SRVCI" src="./images/3.jpg" alt="Interior Cleaning" height="400">
+					<h3>Interior Cleaning</h3>
+					<p>We meticulously clean every curve and crevice of every car we work on. <br>
+					Interior services include full carpet, floor, and seat shampooing & steaming.</p>
 			</div>
 		</section>
 	<!-- End Services 2 -->
@@ -112,10 +73,12 @@
 	<!-- Services 3 -->
 		<section>
 			<div id="services">
-				<img class="SRVCI" src="./images/1.jpg" alt="Ceramic Coating" height="400">
-				<h3>Ceramic Coating</h3>
-				<p>Get the highest level of protection for your car with <br>
-				professional ceramic coating using the leading Ceramic Pro coating treatment.</p>
+				<div class="box">
+					<img class="SRVCI" src="./images/1.jpg" alt="Ceramic Coating" height="400">
+					<h3>Ceramic Coating</h3>
+					<p>Get the highest level of protection for your car with <br>
+					professional ceramic coating using the leading Ceramic Pro coating treatment.</p>
+				</div>
 			</div>
 		</section>
 	<!-- End Services 3 -->
