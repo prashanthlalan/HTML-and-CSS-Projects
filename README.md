@@ -2,7 +2,5 @@
 This is a display of sample websites that I made using HTML and CSS.
 
 # Projects
-    <ul>
-    <li>Space Station Site</li>
-    <li>Movie Theatre Site</li>
-    </ul>
+• [Space Station Site](https://github.com/prashanthlalan/HTML-and-CSS-Projects/blob/main/project/index.html)
+• [Movie Theatre site](https://github.com/prashanthlalan/HTML-and-CSS-Projects/tree/main/Basic_HTML_and_CSS/bootstrap4_project)
