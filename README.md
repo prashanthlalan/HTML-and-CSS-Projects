@@ -1,2 +1,4 @@
 # HTML-and-CSS-Projects
-This contains all the folders and files submitted HTML and CSS Assignments.
+This is a display of sample websites that I made using HTML and CSS.
+
+# Projects
